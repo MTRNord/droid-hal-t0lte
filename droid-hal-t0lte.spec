@@ -14,6 +14,13 @@
 %define straggler_files \
 /selinux_version\
 /service_contexts\
+/bugreports\
+/cache\
+/d\
+/file_contexts.bin\
+/property_contexts\
+/sdcard\
+/vendor\
 %{nil}
 
 %include rpm/dhd/droid-hal-device.inc
